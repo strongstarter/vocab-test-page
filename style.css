@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: url(img/forest.jpg) no-repeat;
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.test_field {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(216, 216, 97);
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+    color: white;
+}
+
+.test-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.arrowbtn {
+    display: flex;
+    align-items: center;
+}
+
+.previous, 
+.next {
+    background: rgb(216, 216, 97);
+    width: 50px;
+    height: 20px;
+    border: none;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
