@@ -3,17 +3,19 @@
 }
 
 body {
-    
     background: url(img/forest.jpg) no-repeat;
-    width: 100vh;
     height: 100vh;
     margin: 0;
+    background-size: cover; /* 추가 */
 }
 
-section {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto; /* 추가 */
+    max-width: 720px; /* 추가 */
+    width: 100%; /* 추가 */
 }
 
 .title {
@@ -30,7 +32,7 @@ section {
     padding: 20px;
     flex-direction: column;
     background-color: rgb(216, 216, 97);
-    width: 400px;
+    width: 100%; /* 추가 */
     height: 600px;
     border-radius: 30px;
     color: white;
